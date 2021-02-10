@@ -16,12 +16,22 @@
         <link rel="stylesheet" href="css/normalize.css">
     </head>
     <body>
+        
         <header>
             <h1>Hello world! This is my HTML5 boilerplate.</h1>
             <p>A Boilerplate helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package.</p>
         </header>
+        <nav>
+            In this Document:
+            <ul>
+                <li><a href="#heading2">Heading 2  </a></li>
+                <li><a href="#heading3">Heading 3  </a></li>
+                <li><a href="#list1">List 1     </a></li>
+                <li><a href="#table1">Table 1   </a></li>
+            </ul>
+        </nav>
         <h2>Table.</h2>
-        <table>
+        <table id="table1">
             <tr>
                 <th>Country</th>
                 <th>Cpatial</th>
@@ -53,7 +63,7 @@
                 <td>German</td>
             </tr>
         </table>
-        <h2>
+        <h2 id="heading2">
             Heading 2
         </h2>
         <p>
@@ -64,14 +74,10 @@
                 <figcaption>Yawning cat. Photo by Martina Misar</figcaption>
             </img>
         </figure>
-        <h3>
-          Styling lists is easy
+        <h3 id="heading3">
+          Heading 3
         </h3>
-        <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, suscipit?</li>
-            <li>Ut ea harum laborum ratione quas hic ducimus culpa praesentium.</li>
-            <li>Libero amet a placeat impedit suscipit assumenda iure unde. Accusantium?</li>
-        </ul>
+        
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. This is a <a href="https://www.google.com">visited link</a> hic nemo dicta dignissimos dolorum obcaecati nobis tenetur laudantium iusto quibusdam vero velit magnam quam quas! Iure nobis minima accusamus fuga.
         </p>
@@ -84,11 +90,15 @@
             Styling lists is easy
         </h3>
         <p>
-            Add an unorderd list with 3 list items here
+            <ul id="list1">
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, suscipit?</li>
+                <li>Ut ea harum laborum ratione quas hic ducimus culpa praesentium.</li>
+                <li>Libero amet a placeat impedit suscipit assumenda iure unde. Accusantium?</li>
+            </ul>
         </p>
         <hr>
         <footer>
-            <p>By <strong>Your name</strong></p>
+            <p>By <strong>Sam verdoodt</strong></p>
         </footer>
     </body>
 </html>
