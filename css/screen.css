@@ -33,3 +33,7 @@ body{
     color: white;
 
 }
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
